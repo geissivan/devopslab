@@ -10,4 +10,4 @@ def pagina_inicial():
     return "POC DO GEISSIVAN PRA AULA DE DEVOPS DA FIAP | DESAFIOS-DONE"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
