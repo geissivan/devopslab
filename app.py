@@ -7,17 +7,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "POC DO GEISSIVAN PRA AULA DE DEVOPS DA FIAP - 08-AppBug"
-
-@app.route('/bug')                                                                                                                                
-def bad():                                                                                                                                        
-    try:                                                                                                                                          
-        raise TypeError()                                                                                                                         
-    except TypeError as e:                                                                                                                        
-        print(e)                                                                                                                                  
-    except TypeError as e:                                                                                                                        
-        print("Duplicado, ou seja, nunca vai entrar aqui.")    
-
+    return "POC DO GEISSIVAN PRA AULA DE DEVOPS DA FIAP | 08-DONE"
 
 if __name__ == '__main__':
     app.run()
